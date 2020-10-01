@@ -5,4 +5,7 @@ def square_array(numbers)
   while count < numbers.length do
     count = numbers[count] * numbers[count]
   end
+    count +=1
+    new_array << count
+  end
 end
